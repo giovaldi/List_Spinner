@@ -9,3 +9,7 @@ def counterClockwise(list_awal): #fungsi def yang menerima satu argumen yaitu li
 print(counterClockwise([[1, 2, 3],
 [4, 5, 6],
 [7, 8, 9]]))
+
+for i in counterClockwise([[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]]):print(i)
